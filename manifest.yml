@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: visualizationOfTempData
+  host: visualizationOfTempData
+  disk_quota: 1024M
+  services:
+  - Internet of Things Platform-yn
+  - Cloudant NoSQL DB-8m
